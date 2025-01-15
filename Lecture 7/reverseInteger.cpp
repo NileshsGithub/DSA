@@ -11,7 +11,7 @@ using namespace std;
         {
             return 0;  
         }
-        ans = (ans * 10) + ans;
+        ans = (ans * 10) + digit;
         n = n / 10;
     }
     cout << ans;
@@ -19,6 +19,6 @@ using namespace std;
 
 int main()
 {
-    reverseInteger(45);
+    reverseInteger(6777);
     
 }
